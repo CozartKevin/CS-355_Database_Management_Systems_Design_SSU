@@ -13,20 +13,24 @@
 
 <div id="vantajs" style="height: 100%;">
 
-	<div id="formParent" class="">
-	<form  action="authenticate.php" method="post" id="ragForm">
-		<input required type='text' class="" name="username" id="username">
-		<label alt='Username' placeholder='Type your Username'></label>
-
-		<input required type='password' class="" name="password" id="password" required>
-		<label alt='Password' placeholder='Type your Password'></label>
-		<input id="ragBtn" type="submit" form="ragForm" ></button>
-	</form>
+	<div id="formParentHome" >
+	<form method="post"  id="ragFormhome">
+		<input required type='text' class="" name="query" id="query">
+		<label alt='Query' placeholder='Type your query'></label>
+        
 	
+	</form>
+    <input id="ragBtnHome" type="submit" form="ragFormhome" ></button>
+
 </div>
+    <div id="formParentHome2" >
+		<div required type='text' class="" id="Output">
+        <P style='color:#0000ff'>Query Output</P>
+        
+		</div>
 </div>
 
-
+</div>
 </body>
 <footer>
 </footer>
